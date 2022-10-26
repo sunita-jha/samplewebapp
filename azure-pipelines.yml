@@ -3,7 +3,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- main
+- none
 
 resources:
 - repo: self
@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '863a36f4-a00f-4aa7-aef9-b9a2777acdfb'
+  dockerRegistryServiceConnection: '7079c697-b178-4e9a-9f66-346d10c88242'
   imageRepository: 'samplewebapp'
   containerRegistry: 'devopsmelacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
